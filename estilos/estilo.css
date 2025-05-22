@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.7s ease;
+}
+
+nav ul li a:hover {
+    background-color: #357ab8;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.205);
+}
+
+main h2 {
+    margin-bottom: 15px;
+    color: #4a90e2;
+} 
+
+main p {
+    font-size: 1.1rem;
+}
+
+input:hover{
+    background-color: #4a91e252;
+    transition: background-color 0.7s ease;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: background-color 0.7s ease;
+}
+
+.contato {
+  display: flex;               
+  flex-direction: column;
+  gap: 10px;                   
+}
+
+.contato label {
+    width: 100px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.button-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+    font-family: Arial;
+    font-size: 18px;
+    display: block;
+    padding: 8px;
+    border-radius: 8px;
+    resize: vertical auto;
+}
+
+textarea:hover{
+    background-color: #4a91e252;
+    transition: background-color 0.7s ease;
+}
+
+button{
+    margin-top: 15px;
+    padding: 5px 15px;
+    background-color: #3f9bec;
+    color: black;
+    cursor: pointer;
+    font-size: 25px;
+    border-style: none;
+    border-radius: 10px;
+    transition: background-color 0.7s ease;
+}
+
+button:hover{
+    background-color: #1851cce0;
+    transition: background-color 0.7s ease;
+}
+
+.button-listar{
+    position: absolute;
+    top: 15px;  
+    right: 30px; 
+
+}
+
+button a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.galeria{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+img{
+    margin-top: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.397);
+}
+
